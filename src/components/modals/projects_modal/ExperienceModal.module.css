@@ -1,0 +1,7 @@
+.card{
+    z-index: 20;
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    overflow: visible;
+}

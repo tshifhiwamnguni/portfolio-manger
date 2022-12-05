@@ -1,0 +1,23 @@
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--color-bg-variant);
+    padding:0rem 1rem 1rem 1rem;
+}
+.logo{
+    font-size: 50px;
+    color: var(--color-primary);
+   
+}
+.list{
+    display: flex;
+    gap: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px; 
+}
+.li{
+    color: var(--color-primary);
+    text-decoration: none;
+}

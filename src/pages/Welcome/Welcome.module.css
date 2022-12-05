@@ -1,0 +1,41 @@
+main {
+  font-size: 70px;
+}
+.cen {
+  width: 100%;
+  display: flex;
+  margin: 2rem auto;
+  justify-content: center;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+}
+
+.s {
+  width: 100%;
+}
+
+.li {
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  padding: 6rem;
+  width: 20rem;
+  color: var(--color-primary);
+  background-color: var(--color-bg-variant);
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
+
+.start {
+  color: var(--color-primary);
+}

@@ -1,0 +1,53 @@
+.about_card {
+  box-shadow: 1rem 1rem 1rem #434343;
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: var(--transit);
+  text-align: center;
+  margin: 1rem;
+}
+
+.about_icon {
+  color: var(--color-primary);
+  font-size: 10rem;
+}
+
+.about_card h5 {
+  font-size: 0.9rem;
+}
+.about_card small {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.center_icon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grow {
+  transition: all 0.3s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.06);
+}
+
+.title {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.data {
+  font-size: 30px;
+  color: whitesmoke;
+}
+.icon {
+  color: var(--color-primary);
+  cursor: pointer;
+  font-size: 30px;
+
+  float: right;
+}
